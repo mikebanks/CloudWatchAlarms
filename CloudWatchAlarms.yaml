@@ -9,7 +9,7 @@ Parameters:
       CloudTrail/DefaultLogGroup
   Email:
     Type: String
-    Default: banks1359@gmail.com
+    Default: <YOUR-EMAIL-HERE>
     Description: Email address to notify when an API activity has triggered an alarm
 Resources:
   SecurityGroupChangesMetricFilter:
