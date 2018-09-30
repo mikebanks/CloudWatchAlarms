@@ -42,6 +42,7 @@ Resources:
       Period: '300'
       Statistic: Sum
       Threshold: '1'
+      TreatMissingData: notBreaching
   NetworkAclChangesMetricFilter:
     Type: 'AWS::Logs::MetricFilter'
     Properties:
@@ -72,6 +73,7 @@ Resources:
       Period: '300'
       Statistic: Sum
       Threshold: '1'
+      TreatMissingData: notBreaching
   GatewayChangesMetricFilter:
     Type: 'AWS::Logs::MetricFilter'
     Properties:
@@ -101,6 +103,7 @@ Resources:
       Period: '300'
       Statistic: Sum
       Threshold: '1'
+      TreatMissingData: notBreaching
   VpcChangesMetricFilter:
     Type: 'AWS::Logs::MetricFilter'
     Properties:
@@ -133,6 +136,7 @@ Resources:
       Period: '300'
       Statistic: Sum
       Threshold: '1'
+      TreatMissingData: notBreaching
   EC2InstanceChangesMetricFilter:
     Type: 'AWS::Logs::MetricFilter'
     Properties:
@@ -161,6 +165,7 @@ Resources:
       Period: '300'
       Statistic: Sum
       Threshold: '1'
+      TreatMissingData: notBreaching
   EC2LargeInstanceChangesMetricFilter:
     Type: 'AWS::Logs::MetricFilter'
     Properties:
@@ -188,6 +193,7 @@ Resources:
       Period: '300'
       Statistic: Sum
       Threshold: '1'
+      TreatMissingData: notBreaching
   CloudTrailChangesMetricFilter:
     Type: 'AWS::Logs::MetricFilter'
     Properties:
@@ -216,6 +222,7 @@ Resources:
       Period: '300'
       Statistic: Sum
       Threshold: '1'
+      TreatMissingData: notBreaching
   ConsoleSignInFailuresMetricFilter:
     Type: 'AWS::Logs::MetricFilter'
     Properties:
@@ -243,6 +250,7 @@ Resources:
       Period: '300'
       Statistic: Sum
       Threshold: '3'
+      TreatMissingData: notBreaching
   AuthorizationFailuresMetricFilter:
     Type: 'AWS::Logs::MetricFilter'
     Properties:
@@ -268,6 +276,7 @@ Resources:
       Period: '300'
       Statistic: Sum
       Threshold: '1'
+      TreatMissingData: notBreaching
   IAMPolicyChangesMetricFilter:
     Type: 'AWS::Logs::MetricFilter'
     Properties:
@@ -292,6 +301,7 @@ Resources:
       Period: '300'
       Statistic: Sum
       Threshold: '1'
+      TreatMissingData: notBreaching
   AlarmNotificationTopic:
     Type: 'AWS::SNS::Topic'
     Properties:
