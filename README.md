@@ -19,7 +19,7 @@ When an API call occurs in your account, a metric filter monitors that API call.
 
 By default, most of the filters in the template trigger an alarm when a monitored event occurs within a five-minute period. You can modify these alarm thresholds for your own requirements. For example, you can monitor for three events in a ten-minute period.
 
-*NOTE:* The base CloudFormation template was taken from the [AWS Documentation Website](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/use-cloudformation-template-to-create-cloudwatch-alarms.html). The site was where this teamplate begsn, but it will continue to grow as more useful alarms are discovered to have in an account.
+*NOTE:* The base CloudFormation template was taken from the [AWS Documentation Website](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/use-cloudformation-template-to-create-cloudwatch-alarms.html). The site was where this teamplate began, but it will continue to grow as more useful alarms are discovered to have in an account.
 
 ## Usage
 
